@@ -45,7 +45,7 @@ Uncomment the video path line and comment out the webcam line:
 
 ```python
 # cap = cv2.VideoCapture(0)  # Webcam
-cap = cv2.VideoCapture(r"C:\Users\gandh\Downloads\cars.mp4")  # Video file
+cap = cv2.VideoCapture(r"C:\Users\username\Downloads\cars.mp4")  # Video file
 ```
 
 ## 🧠 Model Used
