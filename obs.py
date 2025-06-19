@@ -7,7 +7,7 @@ cap = cv2.VideoCapture(0) #for webcam
 cap.set(3, 1280)
 cap.set(4, 720) 
 
-#cap = cv2.VideoCapture(r"C:\Users\gandh\Downloads\cars.mp4") #for video
+#cap = cv2.VideoCapture(r"C:\Users\username\Downloads\cars.mp4") #for video
 
 model = YOLO("yolov8n.pt")
 
